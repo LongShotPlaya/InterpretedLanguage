@@ -1,0 +1,8 @@
+swim(speak("Welcome to the multiplier!"))
+swim(
+    speak("Your answer is:"),
+    by(
+        mathynum(speak("Input the first term!")),
+        mathynum(speak("Input the second term!"))
+    )
+)
